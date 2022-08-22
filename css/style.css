@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+
+
+}
+
+.navbar {
+    position: relative;
+    left: -200px;
+    top: 0;
+}
+
+.hero-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+#hero {
+    background: #100E14;
+}
+
+.hero-block h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+
+}
+
+.hero-block p {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+
+
+}
+
+.btn {
+    width: 230px;
+    height: 60px;
+    background: #FF4343;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+
+.hero-block a {
+    color: white;
+    margin-bottom: 60px;
+}
+
+#basics {
+    background: #100E14;
+}
+
+.hero-block-edi {
+    position: relative;
+}
+
+.edi {
+    padding-left: 100px;
+}
+
+.edi2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#work {
+    background: #121118;
+    padding: 50px 0;
+
+}
+
+.work-gen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-2 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+
+}
+
+.work-2 p {
+    height: 114px;
+    width: 452px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.work-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aza img {
+    position: relative;
+    right: 20px;
+    top: 60px;
+}
+
+.aza2 img {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+#them {
+    background: #121118;
+    padding-top: 100px;
+}
+
+.gog img {
+    width: 400px;
+}
+
+.them-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tmem-aza h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.tmem-aza p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#add {
+    background: #121118;
+    padding-top: 100px;
+}
+
+.add-aza {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zema img {
+    width: 400px;
+}
+.add-aza h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+   margin-bottom: 20px;
+
+}
+.add-aza p {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+#share {
+    background: #121118;
+}
+.share-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.share-block h1 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+.share-block p {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+#best {
+    background: #121118;
+}
+.share-aza img {
+    width: 500px;
+}
+.gog-aza img {
+    width: 200px;
+}
+.best-aza h1 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 61px;
+    text-align: center;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.best-aza P {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+
+
+}
+
