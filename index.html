@@ -10,8 +10,71 @@
           rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+
+
+
+
 </head>
 <body>
+<div class="header">
+    <div class="container">
+        <h4 class="htext">Theme Mode:</h4>
+        <label class="switch">
+            <input type="checkbox" name="" id="mode">
+            <span class="slide"></span>
+        </label>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <!-- Calculator -->
+            <div class="box">
+                <div class="main-heading">
+                    Single Calculation
+                </div>
+                <div class="cal">
+                    <input type="number" placeholder="Add Value" name="" id="cal1">
+                    <input type="number" placeholder="Add Value" name="" id="cal2">
+                    <div class="heading">
+                        Calculate
+                    </div>
+                    <button id="plus" onclick="plusValue()" title="Plus">+</button>
+                    <button id="subtraction" onclick="subtractionValue()" title="Subtraction">-</button>
+                    <button id="multiply" onclick="multiplyValue()" title="Multiply">x</button>
+                    <button id="division" onclick="divisionValue()" title="Division">/</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <!-- Multiple Calculation -->
+            <div class="box mbox">
+                <div class="main-heading">
+                    Multiple Calculation
+                </div>
+                <div class="cal">
+                    <label for="mcal1" id="mlb">Result is:</label>
+                    <input type="number" placeholder="Add Value" name="" id="mcal1">
+                    <input type="number" placeholder="Add Value" name="" id="mcal2">
+                    <div class="heading">
+                        Calculate
+                    </div>
+                    <button id="plus" onclick="mplusValue()" title="Plus">+</button>
+                    <button id="subtraction" onclick="msubtractionValue()" title="Subtraction">-</button>
+                    <button id="multiply" onclick="mmultiplyValue()" title="Multiply">x</button>
+                    <button id="division" onclick="mdivisionValue()" title="Division">/</button>
+                </div>
+                <div class="mboxbtn">
+                    <button class='clr' onclick='mclrValue()'>Clear</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 <header id="header">
     <div class="container">
         <div class="header">
@@ -138,25 +201,29 @@
     <div class="container">
         <div class="best">
            <div>
-               <div class="best-aza">
-                   <h1>Trusted by the <br>best at their craft</h1>
-                   <p>Coaches, creators and changemakers use <br>Classcamp to offer engaging learning experiences</p>
-               </div>
-               <div class="gog-aza">
-                   <img src="./img/tot1.svg" alt="">
-                   <img src="./img/tot2.svg" alt="">
-                   <img src="./img/tot3.svg" alt="">
-                   <img src="./img/tot4.svg" alt="">
-                   <img src="./img/tot5.svg" alt="">
-           </div>
+              <div class="container">
+                  <div class="best-aza">
+                      <h1>Trusted by the <br>best at their craft</h1>
+                      <p>Coaches, creators and changemakers use <br>Classcamp to offer engaging learning experiences</p>
+                  </div>
+                  <div class="gog-aza">
+                      <img src="./img/tot1.svg" alt="">
+                      <img src="./img/tot2.svg" alt="">
+                      <img src="./img/tot3.svg" alt="">
+                      <img src="./img/tot4.svg" alt="">
+                      <img src="./img/tot5.svg" alt="">
+                  </div>
+              </div>
             </div>
         </div>
     </div>
 </section>
 
 
-
+<script src="./js/script.js"></script>
 </div>
 </section>
+
+
 </body>
 </html>

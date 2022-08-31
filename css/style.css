@@ -11,6 +11,217 @@
 a {
     text-decoration: none;
 }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    transition: 0.5s;
+}
+
+.container {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .col-6 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+.header {
+    width: 100%;
+    background: #fff;
+    box-shadow: 2px 0px 5px rgb(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.htext {
+    float: left;
+    margin: 8px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.header .switch {
+    cursor: pointer;
+    width: 60px;
+    height: 28px;
+    border: 1px solid white;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    background: #000;
+}
+
+.header .switch input {
+    display: none;
+}
+
+.header .switch .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.header .switch .slide::before {
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    margin: 1px;
+    background: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.header .switch input:checked + .slide::before {
+    transform: translateX(32px);
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 100px;
+    transition: 0.5s;
+}
+
+.box .cal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box .cal input {
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.box .cal input:focus {
+    background: lightcyan;
+}
+
+.box .cal .heading {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.box .cal label {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding: 5px;
+    display: none;
+}
+
+.box .main-heading {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background: lightskyblue;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box .cal button {
+    padding: 10px 23px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background: cornflowerblue;
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box .cal button:hover {
+    background: blueviolet;
+}
+
+.box .result {
+    font-size: 18;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.box .clr {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background: green;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.mboxbtn {
+    display: none;
+}
+
+.box .cal .active,
+.active {
+    display: block;
+}
+
+
+
+
+
+
+
 
 #header {
     background: #FFFFFF;
@@ -257,14 +468,27 @@ a {
 }
 
 #best {
-    background: #121118;
+    background: #121118
 }
 .share-aza img {
     width: 500px;
 }
 .gog-aza img {
-    width: 200px;
+    width: 300px;
+    left: 50px;
+
 }
+.best {
+    position: relative;
+    padding-top: px;
+
+
+
+
+
+
+}
+
 .best-aza h1 {
     font-family: 'Roboto',sans-serif;
     font-style: normal;
